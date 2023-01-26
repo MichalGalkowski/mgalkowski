@@ -1,0 +1,13 @@
+const fpDescription = 'Aplikacja do zamawiania zdjęć na porcelanie i krysztale';
+const fpDescriptionLong =
+    'Aplikacja do zamawiania zdjęć na porcelanie i krysztale.\n Możemy w niej skonfigurować produkt według własnych preferencji, aplikacja kieruje użytkownika przez cały proces reagując na wprowadzone zmiany. Aplikacja wyświetla wybrany produkt na schemacie pokazowym, pokazuje kształt, kolor i wykończenie. Użytkownik ma możliwość dodania zdjęcia z galerii lub zrobienia zdjęcia w trakcie zamawiania, może je także wykadrować wedle upodobania. Do każdego produktu można dopisać też dodatkowe informacje jeśli potrzebne są dodatkowe wytyczne co do produktu.\n Po skonfigurowaniu produktów i dodaniu niezbędnych do realizacji zamówienia danych klient może wysłać wiadomość ze wszystkimi zebranymi informacjami do producenta.\n\n Technologie: \n Flutter/Dart\n\n Baza danych:\n SQLite, SharedPreferences \n\n Biblioteki:\n image_picker, image_cropper, carousel_slider, provider, flutter_email_sender, path, http';
+const lingueyeDescription = 'Aplikacja do tłumaczenia tekstu ze zdjęć';
+const lingueyeDescriptionLong =
+    'LinguEye daje możliwość przetłumaczenia tekstu ze zdjęcia, które zrobimy. \nAplikacja za pomocą technologii Google ML Kit, wykrywa język i tłumaczy tekst na wybrany z pięciu możliwości język. Zeskanowany tekst, w przypadku znalezionych błędów można poddać edycji i ewentualnie zmienić język tłumaczenia bez konieczności wykonywania kolejnego zdjęcia. \n\nTechnologie: \n Flutter/Dart, Google ML Kit\n\nBaza danych:\n SharedPreferences\n\nBiblioteki:\n image_picker, image_cropper, provider, path_provider, circle_flags';
+const eskarbekDescription =
+    'Aplikacja do zamawiania produktów z minky i bawełny';
+const eskarbekDescriptionLong =
+    'Aplikacja do zamawiania produktów z minky i bawełny.\nUżytkownik ma możliwość skonfigurowania poduszki lub kocyka z dostępnych wariantów tkanin. Producent za pomocą panelu sterowania może aktualizować produkty i dostępne materiały.\nAplikacja w trakcie tworzenia\n\nTechnologie: \n Flutter/Dart, Firebase, BloC\n\nBaza danych:\n Firebase, ObjectBox, SharedPreferences\n\nBiblioteki:\n path, path_provider, provider, badges, image_picker, image_cropper';
+const bialyDomekDescription = 'Aplikacja do zarządzania domkiem';
+const bialyDomekDescriptionLong =
+    'Aplikacja do zarządzania domkiem.\nZarejestrowany mieszkaniec ma możliwość dodania informacji, rozliczenia się ze składki i kontrolowania stanu produktów wspólnych na domku. Aplikacja automatycznie przydziela grafik sprzątania, użytkownik musi tylko potwerdzić, że wywiązał się ze sprzątania\n\nTechnologie: React.js, HTML/CSS, JavaScript, Firebase';
