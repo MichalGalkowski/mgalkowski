@@ -29,25 +29,28 @@ class MainPage extends StatelessWidget {
                 ProjectCard(
                   description: fpDescription,
                   logo: 'fpnet.png',
-                  image: 'fpnet-screen.png',
+                  screens: ['fpnet-screen.png', 'fpnet-sec-screen.png'],
                   index: 0,
                 ),
                 ProjectCard(
                   description: lingueyeDescription,
                   logo: 'lingueye.png',
-                  image: 'lingueye-screen.png',
+                  screens: ['lingueye-sec-screen.png', 'lingueye-screen.png'],
                   index: 1,
                 ),
                 ProjectCard(
                   description: eskarbekDescription,
                   logo: 'eskarbek.png',
-                  image: 'eskarbek-screen.png',
+                  screens: ['eskarbek-sec-screen.png', 'eskarbek-screen.png'],
                   index: 2,
                 ),
                 ProjectCard(
                   description: bialyDomekDescription,
                   logo: 'bialy-domek.png',
-                  image: 'bialy-domek-screen.png',
+                  screens: [
+                    'bialy-domek-screen.png',
+                    'bialy-domek-sec-screen.png'
+                  ],
                   index: 3,
                 ),
               ]

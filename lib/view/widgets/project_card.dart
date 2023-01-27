@@ -10,12 +10,12 @@ class ProjectCard extends StatelessWidget {
   const ProjectCard(
       {required this.logo,
       required this.description,
-      required this.image,
+      required this.screens,
       required this.index,
       super.key});
   final String logo;
   final String description;
-  final String image;
+  final List<String> screens;
   final int index;
 
   @override
@@ -50,14 +50,14 @@ class ProjectCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Image.asset(
-                      image,
+                      screens[0],
                       height: 500,
                     ),
                     const SizedBox(
                       width: 20,
                     ),
                     Image.asset(
-                      image,
+                      screens[1],
                       height: 500,
                     ),
                   ],
